@@ -13,17 +13,34 @@ h1 {
     color: white;
     font-size: 20px;
     font-weight: bold;
+    margin: 0 0 0 50px;
 }
 
 .container-scrollbar {
+    background-color: white;
+    border: 3px solid blue;
     display: flex;
-    flex-flow: row nowrap;
-    flex-grow: 0;
     flex-shrink: 0;
+    flex-grow: 0;
+    flex-flow: row nowrap;
+    flex: 1;
     overflow: hidden;
     overflow-x: scroll;
+    margin: 0 0 0 50px;
+}
+
+.container-scrollbar img {
+    border: 5px solid salmon;
+    height: 124px;
+    width: 220px;
 }
 
 .container-scrollbar::-webkit-scrollbar {
     display: none;
+}
+
+.container-logo {
+    height: 100px;
+    width: 100px;
+    margin: 0 0 0 50px;
 }
