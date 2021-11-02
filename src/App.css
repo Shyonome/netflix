@@ -14,23 +14,19 @@ h1 {
     font-size: 20px;
     font-weight: bold;
     margin: 0 0 0 50px;
+    padding: 25px 0px;
 }
 
 .container-scrollbar {
-    background-color: white;
-    border: 3px solid blue;
     display: flex;
-    flex-shrink: 0;
-    flex-grow: 0;
     flex-flow: row nowrap;
-    flex: 1;
     overflow: hidden;
     overflow-x: scroll;
     margin: 0 0 0 50px;
+    padding-bottom: 20px;
 }
 
 .container-scrollbar img {
-    border: 5px solid salmon;
     height: 124px;
     width: 220px;
 }

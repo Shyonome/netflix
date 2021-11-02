@@ -5,11 +5,13 @@ const Section = ({ title, data }) => {
     return (
         <section>
             <Title title = {title} />
-            {data.map((elem, index) => {
-                return (
-                    <Scrollbar key = {index} data = {elem} />
-                );
-            })}
+            <div className = "container-scrollbar">
+                {data.map((elem, index) => {
+                    return (
+                        <Scrollbar key = {index} data = {elem} />
+                    );
+                })}
+            </div>
         </section>
     )
 }
